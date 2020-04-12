@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d584e50d-8686-448c-8f08-adca3ceb4c5f" name="Default Changelist" comment="" />
+    <list default="true" id="d584e50d-8686-448c-8f08-adca3ceb4c5f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/version_number/VersionNumberComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/version_number/VersionNumberComparatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/version_number/VersionNumber.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,10 +15,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Za0zU3r6ZFtuLDmu8inAkIyw8Q" />
   <component name="ProjectViewState">
@@ -32,7 +40,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Projects/Digester/commons-digester-1.4-src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -42,6 +50,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="version_number" />
       <recent name="distance_3D_space" />
       <recent name="lru" />
       <recent name="reverse_text" />
@@ -50,7 +59,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PointTest">
+  <component name="RunManager" selected="JUnit.VersionNumberComparatorTest">
     <configuration name="DotProduct" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dot_product.DotProduct" />
       <module name="TestBell" />
@@ -64,19 +73,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="lru.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="palindrome.Palindrome" />
-      <module name="TestBell" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="palindrome.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,13 +123,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="VersionNumberComparatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestBell" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="version_compare.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="version_compare" />
+      <option name="MAIN_CLASS_NAME" value="version_compare.VersionNumberComparatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.VersionNumberComparatorTest" />
         <item itemvalue="JUnit.PointTest" />
         <item itemvalue="Application.LRUCache" />
         <item itemvalue="JUnit.ReverseTextTest" />
         <item itemvalue="Application.ReverseText" />
-        <item itemvalue="Application.Palindrome" />
       </list>
     </recent_temporary>
   </component>
@@ -151,6 +162,7 @@
       <workItem from="1585345558775" duration="22745000" />
       <workItem from="1585873760084" duration="6125000" />
       <workItem from="1586137652060" duration="4586000" />
+      <workItem from="1586654849723" duration="5487000" />
     </task>
     <servers />
   </component>
@@ -162,10 +174,10 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1506" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1585063029553" />
-    <state x="-1155" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1585877388593">
+    <state x="-1155" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1586663357076">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1155" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1585877388593" />
+    <state x="-1155" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1586663357076" />
     <state x="-1231" y="304" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1585063025942">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
@@ -174,6 +186,10 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1280" y="248" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1586285317297" />
+    <state x="-1335" y="114" key="CommitChangelistDialog2" timestamp="1586666324957">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1335" y="114" key="CommitChangelistDialog2/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1586666324957" />
     <state width="414" height="466" key="DebuggerActiveHint" timestamp="1585063373348">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
@@ -182,63 +198,64 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1180" y="275" key="FileChooserDialogImpl/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1586138056213" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1585883027955">
+    <state width="1877" height="284" key="GridCell.Tab.0.bottom" timestamp="1586666279692">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1585883027955" />
+    <state width="1877" height="284" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1586666279692" />
     <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1585845372837" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1585883027955">
+    <state width="1877" height="284" key="GridCell.Tab.0.center" timestamp="1586666279692">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1585883027955" />
+    <state width="1877" height="284" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1586666279692" />
     <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1585845372837" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1585883027954">
+    <state width="1877" height="284" key="GridCell.Tab.0.left" timestamp="1586666279691">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1585883027954" />
+    <state width="1877" height="284" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1586666279691" />
     <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1585845372837" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1585883027955">
+    <state width="1877" height="284" key="GridCell.Tab.0.right" timestamp="1586666279692">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1585883027955" />
+    <state width="1877" height="284" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1586666279692" />
     <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1585845372837" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1585845372837">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1586665648667">
+      <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1585786162252" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1586665648667" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1585845372837" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1585845372837">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1586665648667">
+      <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1585786162252" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1586665648667" />
     <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1585845372837" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1585845372837">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1586665648667">
+      <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1585786162252" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1586665648667" />
     <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1585845372837" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1585845372837">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1586665648667">
+      <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1585786162252" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1586665648667" />
     <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1585845372837" />
     <state x="-1480" y="94" key="SettingsEditor" timestamp="1585678488623">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1480" y="94" key="SettingsEditor/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1585678488623" />
-    <state x="-1339" y="298" key="com.intellij.ide.util.TipDialog" timestamp="1586137710164">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1586654850975">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="-1339" y="298" key="com.intellij.ide.util.TipDialog/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1586137710164" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1585347892744" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1586451027473" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1586654850975" />
     <state x="-1256" y="413" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1585678648887">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1256" y="413" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1585678648887" />
-    <state x="-1189" y="223" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1585882205750">
+    <state x="-1189" y="223" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1586664483810">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1189" y="223" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1585882205750" />
+    <state x="-1189" y="223" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1586664483810" />
     <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1585591289985">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
