@@ -48,17 +48,4 @@ public class ReverseLinkList<T> {
         }
         return joiner.toString();
     }
-
-
-    public static void main(String a[]){
-        ReverseLinkList<String> reverseLinkList = new ReverseLinkList<>();
-        reverseLinkList.add("1");
-        reverseLinkList.add("2");
-        reverseLinkList.add("3");
-        reverseLinkList.add("4");
-        reverseLinkList.add("5");
-        System.out.println("Before Reverse : " + reverseLinkList);
-        reverseLinkList.reverse();
-        System.out.println("After Reverse : " + reverseLinkList);
-    }
 }
