@@ -1,4 +1,4 @@
-package multithreading.processor;
+package multithreading.advance;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

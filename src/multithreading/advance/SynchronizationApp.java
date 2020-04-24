@@ -1,4 +1,4 @@
-package multithreading.processor;
+package multithreading.advance;
 
 /**
  * @author Mahedi Hassan
