@@ -14,7 +14,11 @@ public class Test {
     public static void main(String a[]){
         Map<String, Integer> aa = new HashMap<>();
            aa.put("a", 0x01 << 3);
-
-
+           int x [] = {1};
+//           int i = 1234567890123;
+//           System.out.println("a".compareTo("b") + a.s);
+        if ("".getClass().getSimpleName() ==  "String"){
+            System.out.println("true");
+        }
     }
 }

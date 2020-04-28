@@ -20,13 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d584e50d-8686-448c-8f08-adca3ceb4c5f" name="Default Changelist" comment="added ReverseNumber">
-      <change afterPath="$PROJECT_DIR$/src/multithreading/advance/BlockingQueueApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/multithreading/advance/NotifyJoin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/multithreading/processor/CountDownApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/multithreading/advance/CountDownApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/multithreading/processor/ProcessorApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/multithreading/advance/ProcessorApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/multithreading/processor/SynchronizationApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/multithreading/advance/SynchronizationApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/multithreading/processor/ThreadPoolApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/multithreading/advance/ThreadPoolApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/multithreading/processor/WorkerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/multithreading/advance/WorkerApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,22 +77,9 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BlockingQueueApp">
+  <component name="RunManager" selected="Application.NotifyJoin">
     <configuration name="BlockingQueueApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="multithreading.advance.BlockingQueueApp" />
-      <module name="TestBell" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="multithreading.advance.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CountDownApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multithreading.advance.CountDownApp" />
       <module name="TestBell" />
       <extension name="coverage">
         <pattern>
@@ -115,6 +98,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NotifyJoin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multithreading.advance.NotifyJoin" />
+      <module name="TestBell" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="multithreading.advance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="palindrome.Palindrome" />
       <module name="TestBell" />
@@ -128,15 +124,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadPoolApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multithreading.advance.ThreadPoolApp" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
       <module name="TestBell" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="multithreading.advance.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -158,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NotifyJoin" />
         <item itemvalue="Application.BlockingQueueApp" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="JUnit.ReverseNumberTest" />
         <item itemvalue="Application.Palindrome" />
-        <item itemvalue="Application.CountDownApp" />
-        <item itemvalue="Application.ThreadPoolApp" />
       </list>
     </recent_temporary>
   </component>
@@ -187,6 +177,10 @@
       <workItem from="1587432674247" duration="4149000" />
       <workItem from="1587517934864" duration="6054000" />
       <workItem from="1587574436912" duration="27236000" />
+      <workItem from="1587756492160" duration="1821000" />
+      <workItem from="1587961424304" duration="1296000" />
+      <workItem from="1588025458227" duration="2442000" />
+      <workItem from="1588041817748" duration="1279000" />
     </task>
     <task id="LOCAL-00001" summary="added version_compare">
       <created>1586666392303</created>
@@ -304,62 +298,78 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1180" y="275" key="FileChooserDialogImpl/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1586715895882" />
-    <state width="1874" height="287" key="GridCell.Tab.0.bottom" timestamp="1587710307379">
-      <screen x="0" y="27" width="1920" height="1053" />
+    <state width="1874" height="343" key="GridCell.Tab.0.bottom" timestamp="1588031583321">
+      <screen x="0" y="27" width="3840" height="1053" />
     </state>
     <state width="1877" height="284" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1586999966839" />
     <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1585845372837" />
     <state width="1874" height="287" key="GridCell.Tab.0.bottom/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1587501635848" />
-    <state width="1874" height="287" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1587710307379" />
+    <state width="1874" height="343" key="GridCell.Tab.0.bottom/0.27.3840.1053@0.27.3840.1053" timestamp="1588031583321" />
+    <state width="1874" height="287" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1587812553119" />
     <state width="1807" height="287" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1587599544161" />
-    <state width="1874" height="287" key="GridCell.Tab.0.center" timestamp="1587710307378">
-      <screen x="0" y="27" width="1920" height="1053" />
+    <state width="881" height="343" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1588028592217" />
+    <state width="1874" height="343" key="GridCell.Tab.0.center" timestamp="1588031583321">
+      <screen x="0" y="27" width="3840" height="1053" />
     </state>
     <state width="1877" height="284" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1586999966838" />
     <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1585845372837" />
     <state width="1874" height="287" key="GridCell.Tab.0.center/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1587501635848" />
-    <state width="1874" height="287" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1587710307378" />
+    <state width="1874" height="343" key="GridCell.Tab.0.center/0.27.3840.1053@0.27.3840.1053" timestamp="1588031583321" />
+    <state width="1874" height="287" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1587812553119" />
     <state width="1807" height="287" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1587599544161" />
-    <state width="1874" height="287" key="GridCell.Tab.0.left" timestamp="1587710307378">
-      <screen x="0" y="27" width="1920" height="1053" />
+    <state width="881" height="343" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1588028592216" />
+    <state width="1874" height="343" key="GridCell.Tab.0.left" timestamp="1588031583320">
+      <screen x="0" y="27" width="3840" height="1053" />
     </state>
     <state width="1877" height="284" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1586999966838" />
     <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1585845372837" />
     <state width="1874" height="287" key="GridCell.Tab.0.left/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1587501635848" />
-    <state width="1874" height="287" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1587710307378" />
+    <state width="1874" height="343" key="GridCell.Tab.0.left/0.27.3840.1053@0.27.3840.1053" timestamp="1588031583320" />
+    <state width="1874" height="287" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1587812553118" />
     <state width="1807" height="287" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1587599544161" />
-    <state width="1874" height="287" key="GridCell.Tab.0.right" timestamp="1587710307378">
-      <screen x="0" y="27" width="1920" height="1053" />
+    <state width="881" height="343" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1588028592216" />
+    <state width="1874" height="343" key="GridCell.Tab.0.right" timestamp="1588031583321">
+      <screen x="0" y="27" width="3840" height="1053" />
     </state>
     <state width="1877" height="284" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1586999966838" />
     <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1585845372837" />
     <state width="1874" height="287" key="GridCell.Tab.0.right/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1587501635848" />
-    <state width="1874" height="287" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1587710307378" />
+    <state width="1874" height="343" key="GridCell.Tab.0.right/0.27.3840.1053@0.27.3840.1053" timestamp="1588031583321" />
+    <state width="1874" height="287" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1587812553119" />
     <state width="1807" height="287" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1587599544161" />
-    <state width="1874" height="354" key="GridCell.Tab.1.bottom" timestamp="1587708092502">
-      <screen x="0" y="27" width="1920" height="1053" />
+    <state width="881" height="343" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1588028592217" />
+    <state width="1874" height="343" key="GridCell.Tab.1.bottom" timestamp="1588031583322">
+      <screen x="0" y="27" width="3840" height="1053" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1586999889491" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1585845372837" />
+    <state width="1874" height="343" key="GridCell.Tab.1.bottom/0.27.3840.1053@0.27.3840.1053" timestamp="1588031583322" />
     <state width="1874" height="354" key="GridCell.Tab.1.bottom/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1587708092502" />
-    <state width="1874" height="354" key="GridCell.Tab.1.center" timestamp="1587708092502">
-      <screen x="0" y="27" width="1920" height="1053" />
+    <state width="881" height="343" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1588028592520" />
+    <state width="1874" height="343" key="GridCell.Tab.1.center" timestamp="1588031583322">
+      <screen x="0" y="27" width="3840" height="1053" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1586999889491" />
     <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1585845372837" />
+    <state width="1874" height="343" key="GridCell.Tab.1.center/0.27.3840.1053@0.27.3840.1053" timestamp="1588031583322" />
     <state width="1874" height="354" key="GridCell.Tab.1.center/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1587708092502" />
-    <state width="1874" height="354" key="GridCell.Tab.1.left" timestamp="1587708092502">
-      <screen x="0" y="27" width="1920" height="1053" />
+    <state width="881" height="343" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1588028592519" />
+    <state width="1874" height="343" key="GridCell.Tab.1.left" timestamp="1588031583321">
+      <screen x="0" y="27" width="3840" height="1053" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1586999889491" />
     <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1585845372837" />
+    <state width="1874" height="343" key="GridCell.Tab.1.left/0.27.3840.1053@0.27.3840.1053" timestamp="1588031583321" />
     <state width="1874" height="354" key="GridCell.Tab.1.left/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1587708092502" />
-    <state width="1874" height="354" key="GridCell.Tab.1.right" timestamp="1587708092502">
-      <screen x="0" y="27" width="1920" height="1053" />
+    <state width="881" height="343" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1588028592519" />
+    <state width="1874" height="343" key="GridCell.Tab.1.right" timestamp="1588031583322">
+      <screen x="0" y="27" width="3840" height="1053" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1586999889491" />
     <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1585845372837" />
+    <state width="1874" height="343" key="GridCell.Tab.1.right/0.27.3840.1053@0.27.3840.1053" timestamp="1588031583322" />
     <state width="1874" height="354" key="GridCell.Tab.1.right/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1587708092502" />
+    <state width="881" height="343" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1588028592520" />
     <state x="735" y="222" width="440" height="633" key="RollbackChangesDialog" timestamp="1587526063568">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -415,6 +425,11 @@
           <url>file://$PROJECT_DIR$/src/reverse_number/ReverseNumber.java</url>
           <line>9</line>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/multithreading/advance/BlockingQueueApp.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
