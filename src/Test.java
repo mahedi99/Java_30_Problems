@@ -1,6 +1,8 @@
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
+import java.util.function.Consumer;
+import java.util.function.Supplier;
 
 /**
  * @author Mahedi Hassan
@@ -17,8 +19,9 @@ public class Test {
            int x [] = {1};
 //           int i = 1234567890123;
 //           System.out.println("a".compareTo("b") + a.s);
-        if ("".getClass().getSimpleName() ==  "String"){
-            System.out.println("true");
-        }
+//        if ("".getClass().getSimpleName() ==  "String"){
+            Supplier<String> runnable = String::new;
+            System.out.println(runnable.get());
+//        }
     }
 }

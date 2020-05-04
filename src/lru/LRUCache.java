@@ -38,6 +38,7 @@ public class LRUCache<K, V> {
         System.out.println(lruCache.get(1)); // Should be null
         System.out.println(lruCache.get(3));
 
+        System.out.println("Total list");
         Iterator it = lruCache.map.entrySet().iterator();
         while (it.hasNext()){
             Map.Entry tmpMap = (Map.Entry) it.next();
