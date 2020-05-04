@@ -13,13 +13,20 @@ class ListUtilsTest {
 
     @Test
     public void removeDuplicateFromListTest(){
-        ListUtils listUtils = new ListUtils();
 
         List<String> list = new ArrayList<>(Arrays.asList("a", "b", "c"));
-        assertEquals(list, listUtils.removeDuplicateFromList(list));
+        assertEquals(list, ListUtils.removeDuplicateFromList(list));
 
         list.add("a");
-        assertNotEquals(list, listUtils.removeDuplicateFromList(list));
+        assertNotEquals(list, ListUtils.removeDuplicateFromList(list));
+
+        assertTrue(list.size() == 4);
+        list = ListUtils.removeDuplicateFromList(list);
+        assertTrue("a".equals(list.get(0)));
+        assertTrue("b".equals(list.get(1)));
+        assertTrue("c".equals(list.get(2)));
+        assertFalse(list.size() == 4);
+
     }
 
 }

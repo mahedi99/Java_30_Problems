@@ -8,7 +8,7 @@ import java.util.*;
  */
 
 public class ListUtils<E> {
-    public List<E> removeDuplicateFromList(List<E> list){
+    public static <E> List<E> removeDuplicateFromList(List<E> list){
         return new ArrayList<>(new LinkedHashSet<>(list));
     }
 }
