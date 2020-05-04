@@ -1,9 +1,6 @@
 package remove_duplicate_list;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 /**
  * @author Mahedi Hassan
@@ -12,6 +9,6 @@ import java.util.Set;
 
 public class ListUtils<E> {
     public List<E> removeDuplicateFromList(List<E> list){
-        return new ArrayList<>(new HashSet<>(list));
+        return new ArrayList<>(new LinkedHashSet<>(list));
     }
 }
