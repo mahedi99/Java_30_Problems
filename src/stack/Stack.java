@@ -2,7 +2,7 @@ package stack;
 
 public class Stack {
     private int[] stack;
-    private int size = 0;
+    private int top = -1;
 
     public Stack(int capacity){
         stack = new int [capacity];
@@ -11,33 +11,26 @@ public class Stack {
     public void push(int value){
 
         if (!isFull()){
-            stack[size] = value;
-            size++;
+            top++;
+            stack[top] = value;
         }
         else {
             throw new StackOverflowError();
         }
     }
-    public void pop(){
-        if (!isEmpty()){
-            size-- ;
-        }
-
+    public int pop(){
+        return !isEmpty() ? stack[top--] : -1;
     }
 
     public boolean isEmpty() {
-        return  (stack != null && size > 0) ? false : true;
+        return  (stack == null || top == -1);
     }
 
     public boolean isFull() {
-        return (stack != null &&stack.length == size) ? true : false;
+        return (stack != null && (stack.length - 1) == top);
     }
 
     public int peek(){
-        return isEmpty() ? -1 : stack[--size];
-    }
-
-    public int getSize(){
-        return size;
+        return isEmpty() ? -1 : stack[top];
     }
 }
